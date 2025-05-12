@@ -19,4 +19,5 @@ COPY src ./src
 RUN ./mvnw package -DskipTests
 
 # Run the app
-CMD ["java", "-jar", "target/*.jar"]
+CMD ["java", "-jar", "target/signup-0.0.1-SNAPSHOT.jar"]
+
