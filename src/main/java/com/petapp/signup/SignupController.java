@@ -23,4 +23,10 @@ public class SignupController {
 
         return "Thanks! Your email was received.";
     }
+
+    @GetMapping("/signup")
+    public String signupHealthCheck() {
+        return "Signup endpoint is live (GET)";
+    }
 }
+
